@@ -59,7 +59,7 @@ angular
   }
  ]);*/
 
- // server.js
+ /*// server.js
              
 var express = require('express');
 
@@ -78,7 +78,7 @@ app.get('*', function(req, res){
 });
 
 app.listen(8081); 
-console.log("Go Prerender Go!");
+console.log("Go Prerender Go!");*/
 
   function MainCtrl($scope) { 
   // We will create an seo variable on the scope and decide which fields we want to populate 
