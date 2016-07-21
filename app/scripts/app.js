@@ -25,7 +25,7 @@ angular
   ])
 
 
-  .config(function ($routeProvider,$locationProvider) {
+  .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
         templateUrl: 'views/main.html',
@@ -47,7 +47,7 @@ angular
         redirectTo: '/'
       })
       /*$routeProvider.html5Mode(true);*/
-      $locationProvider.hashPrefix('!');
+      /*$locationProvider.hashPrefix('!');*/
       
   });
 
